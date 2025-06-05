@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vaishali Goyal | MERN Stack Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- AOS Animate on Scroll CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  
+  <!-- Lottie Player CDN -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+  <!-- Dark mode toggle -->
+  <button id="dark-mode-toggle" aria-label="Toggle Dark Mode" class="dark-mode-btn" title="Toggle Dark Mode">
+    🌙
+  </button>
+
+  <!-- Sticky Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero-section">
+    <div class="hero-content" data-aos="fade-right">
+      <h1>Hi, I’m <span class="name">Vaishali Goyal</span></h1>
+      <h2><span id="typed-text"></span><span class="cursor">|</span></h2>
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+    </div>
+    <lottie-player
+      src="https://assets6.lottiefiles.com/packages/lf20_2LdL8Q.json"
+      background="transparent"
+      speed="1"
+      style="width: 320px; height: 320px;"
+      loop
+      autoplay
+      data-aos="fade-left"
+    ></lottie-player>
+  </header>
+
+  <!-- About Me -->
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate MERN stack developer with a strong foundation in Java, C, C++, and JavaScript.
+      I specialize in React, Node.js, and Express to build dynamic, responsive web applications.
+      Skilled in databases like MongoDB and MySQL, and tools like Git, GitHub, Postman, Tailwind CSS, and Bootstrap,
+      I create clean, maintainable code and seamless user experiences.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>Java</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>C / C++</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>React</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Node.js</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Express</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 75%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>MongoDB</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 75%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>MySQL</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 70%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Git & GitHub</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Postman</h3>
+        <div class="progress-bar">
+          <div class="progress" style="--progress: 80%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <article class="project-card" data-aos="zoom-in">
+        <h3>SnipMate</h3>
+        <p>Code snippet manager</p>
+        <div class="project-links">
+          <a href="#" class="btn btn-outline" title="GitHub Repo">GitHub</a>
+          <a href="#" class="btn btn-outline" title="Live Demo">Demo</a>
+        </div>
+      </article>
+      <article class="project-card" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Hand Mouse Project</h3>
+        <p>Gesture recognition system</p>
+        <div class="project-links">
+          <a href="#" class="btn btn-outline" title="GitHub Repo">GitHub</a>
+          <a href="#" class="btn btn-outline" title="Live Demo">Demo</a>
+        </div>
+      </article>
+      <article class="project-card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>Hostel Issue Tracker</h3>
+        <p>Full-stack hostel maintenance tracking system</p>
+        <div class="project-links">
+          <a href="#" class="btn btn-outline" title="GitHub Repo">GitHub</a>
+          <a href="#" class="btn btn-outline" title="Live Demo">Demo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <!-- <section id="testimonials" class="section" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <div class="testimonials-container">
+      <blockquote class="testimonial" data-aos="fade-right">
+        <p>"Vaishali is a diligent and creative developer. Her MERN stack projects are top-notch!"</p>
+        <footer>— Mentor</footer>
+      </blockquote>
+      <blockquote class="testimonial" data-aos="fade-left" data-aos-delay="100">
+        <p>"Working with Vaishali was a pleasure. She delivers quality code on time."</p>
+        <footer>— Colleague</footer>
+      </blockquote>
+      <blockquote class="testimonial" data-aos="fade-right" data-aos-delay="200">
+        <p>"Her problem-solving skills and dedication make her stand out in the team."</p>
+        <footer>— Client</footer>
+      </blockquote>
+    </div>
+  </section> -->
+
+  <!-- Resume Download -->
+  <section class="section resume-section" data-aos="fade-up">
+    <a href="Vaishali_Goyal_Resume.pdf" download class="btn btn-primary btn-resume">Download Resume</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>Connect with me on social media or send a message directly.</p>
+    <div class="social-icons">
+      <a href="#" aria-label="GitHub" class="social-link" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <!-- GitHub SVG -->
+        <svg height="24" width="24" viewBox="0 0 16 16" fill="currentColor">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49C3.71 14.91 3.28 13.75 3.28 13.75c-.36-.92-.88-1.16-.88-1.16-.72-.49.05-.48.05-.48.79.06 1.21.81 1.21.81.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.99 1.03-2.69-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.02A9.6 9.6 0 018 4.75c.85.004 1.71.115 2.51.337 1.91-1.29 2.75-1.02 2.75-1.02.55 1.4.2 2.44.1 2.7.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.29.25.54.74.54 1.5 0 1.08-.01 1.95-.01 2.22 0 .21.15.46.55.38A8 8 0 0016 8c0-4.42-3.58-8-8-8z"
+          />
+        </svg>
+      </a>
+      <a href="#" aria-label="LinkedIn" class="social-link" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <!-- LinkedIn SVG -->
+        <svg height="24" width="24" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M4.98 3.5C3.35 3.5 2 4.85 2 6.48c0 1.63 1.35 2.98 2.98 2.98 1.64 0 2.99-1.35 2.99-2.98C7.97 4.85 6.62 3.5 4.98 3.5zM2.4 8.98h5.17V21H2.4V8.98zM8.97 8.98h4.93v1.63h.07c.69-1.31 2.38-2.7 4.9-2.7 5.25 0 6.21 3.46 6.21 7.96V21h-5.17v-6.64c0-1.58-.03-3.62-2.21-3.62-2.22 0-2.56 1.73-2.56 3.52V21H8.97V8.98z"
+          />
+        </svg>
+      </a>
+      <a href="#" aria-label="Twitter" class="social-link" target="_blank" rel="noopener noreferrer" title="Twitter">
+        <!-- Twitter SVG -->
+        <svg height="24" width="24" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M23 3a10.9 10.9 0 01-3.14.86 4.48 4.48 0 001.96-2.48 9.06 9.06 0 01-2.88 1.1 4.52 4.52 0 00-7.69 4.12A12.83 12.83 0 013 4.9a4.52 4.52 0 001.4 6.05 4.41 4.41 0 01-2.05-.56v.06a4.52 4.52 0 003.63 4.44 4.52 4.52 0 01-2.04.08 4.53 4.53 0 004.22 3.14A9.06 9.06 0 013 19.54 12.84 12.84 0 008.29 21c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53A8.18 8.18 0 0023 3z"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <form id="contact-form" action="#" class="contact-form" data-aos="fade-up" data-aos-delay="100" novalidate>
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p id="form-status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <!-- Background gradient animation -->
+  <div class="background-gradient"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
